@@ -1,0 +1,4 @@
+/home/isucon/.local/carton/lib/perl5/Redis.pm
+/home/isucon/.local/carton/lib/perl5/Redis/Hash.pm
+/home/isucon/.local/carton/lib/perl5/Redis/List.pm
+/home/isucon/.local/carton/lib/perl5/Redis/Sentinel.pm

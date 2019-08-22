@@ -1,0 +1,1 @@
+{"pathname":"D/DA/DAMS/Redis-1.976.tar.gz","dist":"Redis-1.976","provides":{"Redis::Hash":{"file":"lib/Redis/Hash.pm","version":"1.976"},"Redis::Sentinel":{"version":"1.976","file":"lib/Redis/Sentinel.pm"},"Redis::List":{"file":"lib/Redis/List.pm","version":"1.976"},"Redis":{"file":"lib/Redis.pm","version":"1.976"}},"version":"1.976","name":"Redis","target":"Redis"}

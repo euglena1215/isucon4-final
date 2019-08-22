@@ -1,0 +1,134 @@
+do{ my $x = [
+       {
+         'ARGV' => []
+       },
+       {
+         'installman3dir' => '',
+         'installman1dir' => '',
+         'installsiteman1dir' => '',
+         'installsiteman3dir' => ''
+       },
+       {
+         'html_css' => '',
+         'mymetafile' => 'MYMETA.yml',
+         'install_base_relpaths' => {},
+         'extra_compiler_flags' => [],
+         'PL_files' => {},
+         'meta_merge' => {},
+         'mymetafile2' => 'MYMETA.json',
+         'dist_version' => '0.01',
+         'create_readme' => undef,
+         'libdoc_dirs' => [
+                            'blib/lib',
+                            'blib/arch'
+                          ],
+         'verbose' => undef,
+         'recommends' => {},
+         'module_name' => 'Kossy::Validator',
+         'build_elements' => [
+                               'PL',
+                               'support',
+                               'pm',
+                               'xs',
+                               'share_dir',
+                               'pod',
+                               'script'
+                             ],
+         'metafile2' => 'META.json',
+         'meta_add' => {},
+         'install_path' => {},
+         'install_sets' => {},
+         'use_tap_harness' => 0,
+         'config_dir' => '_build',
+         'dist_version_from' => 'lib/Kossy/Validator.pm',
+         'test_file_exts' => [
+                               '.t'
+                             ],
+         'create_packlist' => 1,
+         'allow_mb_mismatch' => 0,
+         'dist_abstract' => undef,
+         'blib' => 'blib',
+         'dist_author' => undef,
+         'create_license' => undef,
+         'needs_compiler' => 1,
+         'release_status' => 'stable',
+         'c_source' => [],
+         'recurse_into' => [],
+         'prefix' => undef,
+         'configure_requires' => {
+                                   'Module::Build' => '0.38'
+                                 },
+         'perl' => '/home/isucon/.local/perl/bin/perl',
+         'allow_pureperl' => 0,
+         'destdir' => undef,
+         'name' => 'Kossy-Validator',
+         'include_dirs' => [],
+         'script_files' => [],
+         'tap_harness_args' => {},
+         'program_name' => undef,
+         'xs_files' => undef,
+         'prereq_action_types' => [
+                                    'requires',
+                                    'build_requires',
+                                    'test_requires',
+                                    'conflicts',
+                                    'recommends'
+                                  ],
+         'build_script' => 'Build',
+         '_have_c_compiler' => 1,
+         'pollute' => undef,
+         'bundle_inc_preload' => [],
+         'pm_files' => undef,
+         'quiet' => undef,
+         'config' => undef,
+         'license' => 'perl',
+         'test_files' => 't/',
+         'create_makefile_pl' => undef,
+         'pureperl_only' => 0,
+         'base_dir' => '/home/isucon/.cpanm/work/1419753955.7391/Kossy-Validator-0.01',
+         'requires' => {},
+         'scripts' => undef,
+         'use_rcfile' => 1,
+         'metafile' => 'META.yml',
+         'prefix_relpaths' => {},
+         'share_dir' => undef,
+         'mb_version' => '0.421',
+         'build_bat' => 0,
+         'auto_configure_requires' => 1,
+         'debugger' => undef,
+         'orig_dir' => '/home/isucon/.cpanm/work/1419753955.7391/Kossy-Validator-0.01',
+         'bindoc_dirs' => [
+                            'blib/script'
+                          ],
+         'install_base' => '/home/isucon/.local/carton',
+         'pod_files' => undef,
+         'build_class' => 'MyBuilder',
+         'test_requires' => {},
+         'cpan_client' => 'cpan',
+         'magic_number' => undef,
+         'original_prefix' => {},
+         'get_options' => {},
+         'sign' => undef,
+         'autosplit' => undef,
+         'has_config_data' => undef,
+         'extra_linker_flags' => [],
+         'debug' => undef,
+         'dist_suffix' => undef,
+         '_added_to_INC' => [
+                              '/home/isucon/.cpanm/work/1419753955.7391/Kossy-Validator-0.01/_build/lib',
+                              '/home/isucon/.local/carton/lib/perl5/x86_64-linux',
+                              '/home/isucon/.local/carton/lib/perl5'
+                            ],
+         'conflicts' => {},
+         'build_requires' => {
+                               'ExtUtils::CBuilder' => 0
+                             },
+         'recursive_test_files' => 1,
+         'dynamic_config' => 0,
+         'dist_name' => 'Kossy-Validator',
+         'installdirs' => 'site',
+         'extra_manify_args' => undef,
+         'bundle_inc' => []
+       }
+     ];
+$x; }

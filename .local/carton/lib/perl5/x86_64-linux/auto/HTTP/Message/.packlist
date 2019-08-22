@@ -1,0 +1,10 @@
+/home/isucon/.local/carton/lib/perl5/HTTP/Config.pm
+/home/isucon/.local/carton/lib/perl5/HTTP/Headers.pm
+/home/isucon/.local/carton/lib/perl5/HTTP/Headers/Auth.pm
+/home/isucon/.local/carton/lib/perl5/HTTP/Headers/ETag.pm
+/home/isucon/.local/carton/lib/perl5/HTTP/Headers/Util.pm
+/home/isucon/.local/carton/lib/perl5/HTTP/Message.pm
+/home/isucon/.local/carton/lib/perl5/HTTP/Request.pm
+/home/isucon/.local/carton/lib/perl5/HTTP/Request/Common.pm
+/home/isucon/.local/carton/lib/perl5/HTTP/Response.pm
+/home/isucon/.local/carton/lib/perl5/HTTP/Status.pm

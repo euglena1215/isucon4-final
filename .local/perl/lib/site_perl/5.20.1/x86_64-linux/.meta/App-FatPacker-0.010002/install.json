@@ -1,0 +1,1 @@
+{"pathname":"H/HA/HAARG/App-FatPacker-0.010002.tar.gz","name":"App::FatPacker","target":"App::FatPacker","version":"0.010002","dist":"App-FatPacker-0.010002","provides":{"App::FatPacker::Trace":{"file":"lib/App/FatPacker/Trace.pm"},"App::FatPacker":{"version":"0.010002","file":"lib/App/FatPacker.pm"}}}

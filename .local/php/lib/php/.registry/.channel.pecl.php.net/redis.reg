@@ -1,0 +1,85 @@
+a:23:{s:7:"attribs";a:6:{s:15:"packagerversion";s:5:"1.9.4";s:7:"version";s:3:"2.0";s:5:"xmlns";s:35:"http://pear.php.net/dtd/package-2.0";s:11:"xmlns:tasks";s:33:"http://pear.php.net/dtd/tasks-1.0";s:9:"xmlns:xsi";s:41:"http://www.w3.org/2001/XMLSchema-instance";s:18:"xsi:schemaLocation";s:147:"http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd";}s:4:"name";s:5:"redis";s:7:"channel";s:12:"pecl.php.net";s:7:"summary";s:40:"PHP extension for interfacing with Redis";s:11:"description";s:68:"This extension provides an API for communicating with Redis servers.";s:4:"lead";a:2:{i:0;a:4:{s:4:"name";s:19:"Nicolas Favre-Felix";s:4:"user";s:3:"nff";s:5:"email";s:22:"n.favrefelix@gmail.com";s:6:"active";s:3:"yes";}i:1;a:4:{s:4:"name";s:15:"Michael Grunder";s:4:"user";s:8:"mgrunder";s:5:"email";s:25:"michael.grunder@gmail.com";s:6:"active";s:3:"yes";}}s:4:"date";s:10:"2014-03-19";s:4:"time";s:8:"15:41:37";s:7:"version";a:2:{s:7:"release";s:5:"2.2.5";s:3:"api";s:5:"2.2.5";}s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"license";a:2:{s:7:"attribs";a:1:{s:3:"uri";s:26:"http://www.php.net/license";}s:8:"_content";s:3:"PHP";}s:5:"notes";s:772:"phpredis 2.2.5
+
+This is a minor release with several bug fixes as well as additions to support
+new commands that have been introduced to Redis since our last release.
+
+A special thanks to everyone who helps the project by commenting on issues and
+submitting pull requests!  :)
+
+[NEW] Support for the BITPOS command
+[NEW] Connection timeout option for RedisArray (@MikeToString)
+[NEW] A _serialize method, to complement our existing _unserialize method
+[NEW] Support for the PUBSUB command
+[NEW] Support for SCAN, SSCAN, HSCAN, and ZSCAN
+[NEW] Support for the WAIT command
+
+[FIX] Handle the COPY and REPLACE arguments for the MIGRATE command
+
+[DOC] Fix syntax error in documentation for the SET command (@mithunsatheesh)
+[DOC] Homebrew documentation instructions (@mathias)";s:8:"contents";a:1:{s:3:"dir";a:2:{s:7:"attribs";a:1:{s:4:"name";s:1:"/";}s:4:"file";a:17:{i:0;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"628767e3a417136cdd2144af5e88284f";s:4:"name";s:15:"README.markdown";s:4:"role";s:3:"doc";}}i:1;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"45ab5b906f4dbe202b607df6a6b2c2fa";s:4:"name";s:15:"arrays.markdown";s:4:"role";s:3:"doc";}}i:2;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"1fde1c18da2562bfb53ea9e9a388f969";s:4:"name";s:7:"CREDITS";s:4:"role";s:3:"doc";}}i:3;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"cb564efdf78cce8ea6e4b5a4f7c05d97";s:4:"name";s:7:"COPYING";s:4:"role";s:3:"doc";}}i:4;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"d06f81b166948f20bca8b16b2a5e9816";s:4:"name";s:9:"config.m4";s:4:"role";s:3:"src";}}i:5;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"0a608797d5404b5c2d882e812c29819a";s:4:"name";s:10:"config.w32";s:4:"role";s:3:"src";}}i:6;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"464f8dc797f1bd932c34d5fd306a026e";s:4:"name";s:8:"common.h";s:4:"role";s:3:"src";}}i:7;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"5bcffcc356ce2c46575c1bc713f7bfdf";s:4:"name";s:9:"library.c";s:4:"role";s:3:"src";}}i:8;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"a5d7931e8823737a4e0e7ba1ff0583a0";s:4:"name";s:9:"library.h";s:4:"role";s:3:"src";}}i:9;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"c7102553367c3896156d82daa09c9631";s:4:"name";s:11:"php_redis.h";s:4:"role";s:3:"src";}}i:10;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"fab50239d629dc68b170a2667a447336";s:4:"name";s:13:"redis_array.c";s:4:"role";s:3:"src";}}i:11;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"ae900029d588d3cc6792123f4990480a";s:4:"name";s:13:"redis_array.h";s:4:"role";s:3:"src";}}i:12;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"280d4f9e6c8e50c2e35b739633cff185";s:4:"name";s:18:"redis_array_impl.c";s:4:"role";s:3:"src";}}i:13;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"92388be86b0ebb836a527607bbfab9ad";s:4:"name";s:18:"redis_array_impl.h";s:4:"role";s:3:"src";}}i:14;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"e0618883fea967adb7909b699ca67103";s:4:"name";s:7:"redis.c";s:4:"role";s:3:"src";}}i:15;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"64e5bcf35113f01bc692a493dd62b43d";s:4:"name";s:15:"redis_session.c";s:4:"role";s:3:"src";}}i:16;a:1:{s:7:"attribs";a:3:{s:6:"md5sum";s:32:"9852b80834e10ebe8a14d957a1eba203";s:4:"name";s:15:"redis_session.h";s:4:"role";s:3:"src";}}}}}s:12:"dependencies";a:1:{s:8:"required";a:2:{s:3:"php";a:3:{s:3:"min";s:5:"5.2.0";s:3:"max";s:5:"6.0.0";s:7:"exclude";s:5:"6.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}}}s:17:"providesextension";s:5:"redis";s:13:"extsrcrelease";s:0:"";s:9:"changelog";a:1:{s:7:"release";a:3:{i:0;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"2.2.5";s:3:"api";s:5:"2.2.5";}s:4:"date";s:10:"2014-03-15";s:5:"notes";s:772:"phpredis 2.2.5
+
+This is a minor release with several bug fixes as well as additions to support
+new commands that have been introduced to Redis since our last release.
+
+A special thanks to everyone who helps the project by commenting on issues and
+submitting pull requests!  :)
+
+[NEW] Support for the BITPOS command
+[NEW] Connection timeout option for RedisArray (@MikeToString)
+[NEW] A _serialize method, to complement our existing _unserialize method
+[NEW] Support for the PUBSUB command
+[NEW] Support for SCAN, SSCAN, HSCAN, and ZSCAN
+[NEW] Support for the WAIT command
+
+[FIX] Handle the COPY and REPLACE arguments for the MIGRATE command
+
+[DOC] Fix syntax error in documentation for the SET command (@mithunsatheesh)
+[DOC] Homebrew documentation instructions (@mathias)";}i:1;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"2.2.4";s:3:"api";s:5:"2.2.4";}s:4:"date";s:10:"2013-09-01";s:5:"notes";s:1275:"**
+** Features / Improvements
+**
+
+* Randomized reconnect delay for RedisArray @mobli
+  This feature adds an optional parameter when constructing a RedisArray object
+  such that a random delay will be introduced if reconnections are made,
+  mitigating any 'thundering herd' type problems.
+
+* Lazy connections to RedisArray servers @mobli
+  By default, RedisArray will attempt to connect to each server you pass in
+  the ring on construction.  This feature lets you specify that you would
+  rather have RedisArray only attempt a connection when it needs to get data
+  from a particular node (throughput/performance improvement).
+
+* Allow LONG and STRING keys in MGET/MSET
+* Extended SET options for Redis >= 2.6.12
+* Persistent connections and UNIX SOCKET support for RedisArray
+* Allow aggregates for ZUNION/ZINTER without weights @mheijkoop
+* Support for SLOWLOG command
+* Reworked MGET algorithm to run in linear time regardless of key count.
+* Reworked ZINTERSTORE/ZUNIONSTORE algorithm to run in linear time
+
+**
+** Bug fixes
+**
+
+* C99 Compliance (or rather lack thereof) fix @mobli
+* Added ZEND_ACC_CTOR and ZEND_ACC_DTOR @euskadi31
+* Stop throwing and clearing an exception on connect failure @matmoi
+* Fix a false positive unit test failure having to do with TTL returns";}i:2;a:4:{s:9:"stability";a:2:{s:7:"release";s:6:"stable";s:3:"api";s:6:"stable";}s:7:"version";a:2:{s:7:"release";s:5:"2.2.3";s:3:"api";s:5:"2.2.3";}s:4:"date";s:10:"2013-04-29";s:5:"notes";s:21:"First release to PECL";}}}s:8:"filelist";a:5:{s:15:"README.markdown";a:4:{s:6:"md5sum";s:32:"628767e3a417136cdd2144af5e88284f";s:4:"name";s:15:"README.markdown";s:4:"role";s:3:"doc";s:12:"installed_as";s:57:"/home/isucon/.local/php/lib/php/doc/redis/README.markdown";}s:15:"arrays.markdown";a:4:{s:6:"md5sum";s:32:"45ab5b906f4dbe202b607df6a6b2c2fa";s:4:"name";s:15:"arrays.markdown";s:4:"role";s:3:"doc";s:12:"installed_as";s:57:"/home/isucon/.local/php/lib/php/doc/redis/arrays.markdown";}s:7:"CREDITS";a:4:{s:6:"md5sum";s:32:"1fde1c18da2562bfb53ea9e9a388f969";s:4:"name";s:7:"CREDITS";s:4:"role";s:3:"doc";s:12:"installed_as";s:49:"/home/isucon/.local/php/lib/php/doc/redis/CREDITS";}s:7:"COPYING";a:4:{s:6:"md5sum";s:32:"cb564efdf78cce8ea6e4b5a4f7c05d97";s:4:"name";s:7:"COPYING";s:4:"role";s:3:"doc";s:12:"installed_as";s:49:"/home/isucon/.local/php/lib/php/doc/redis/COPYING";}s:8:"redis.so";a:6:{s:4:"role";s:3:"src";s:4:"name";s:8:"redis.so";s:12:"installed_as";s:77:"/home/isucon/.local/php/lib/php/extensions/no-debug-non-zts-20131226/redis.so";s:7:"php_api";i:0;s:12:"zend_mod_api";i:0;s:12:"zend_ext_api";i:0;}}s:12:"_lastversion";N;s:7:"dirtree";a:1:{s:41:"/home/isucon/.local/php/lib/php/doc/redis";b:1;}s:3:"old";a:7:{s:7:"version";s:5:"2.2.5";s:12:"release_date";s:10:"2014-03-19";s:13:"release_state";s:6:"stable";s:15:"release_license";s:3:"PHP";s:13:"release_notes";s:772:"phpredis 2.2.5
+
+This is a minor release with several bug fixes as well as additions to support
+new commands that have been introduced to Redis since our last release.
+
+A special thanks to everyone who helps the project by commenting on issues and
+submitting pull requests!  :)
+
+[NEW] Support for the BITPOS command
+[NEW] Connection timeout option for RedisArray (@MikeToString)
+[NEW] A _serialize method, to complement our existing _unserialize method
+[NEW] Support for the PUBSUB command
+[NEW] Support for SCAN, SSCAN, HSCAN, and ZSCAN
+[NEW] Support for the WAIT command
+
+[FIX] Handle the COPY and REPLACE arguments for the MIGRATE command
+
+[DOC] Fix syntax error in documentation for the SET command (@mithunsatheesh)
+[DOC] Homebrew documentation instructions (@mathias)";s:12:"release_deps";a:3:{i:0;a:4:{s:4:"type";s:3:"php";s:3:"rel";s:2:"le";s:7:"version";s:5:"6.0.0";s:8:"optional";s:2:"no";}i:1;a:4:{s:4:"type";s:3:"php";s:3:"rel";s:2:"ge";s:7:"version";s:5:"5.2.0";s:8:"optional";s:2:"no";}i:2;a:6:{s:4:"type";s:3:"pkg";s:7:"channel";s:12:"pear.php.net";s:4:"name";s:4:"PEAR";s:3:"rel";s:2:"ge";s:7:"version";s:7:"1.4.0b1";s:8:"optional";s:2:"no";}}s:11:"maintainers";a:2:{i:0;a:5:{s:4:"name";s:19:"Nicolas Favre-Felix";s:5:"email";s:22:"n.favrefelix@gmail.com";s:6:"active";s:3:"yes";s:6:"handle";s:3:"nff";s:4:"role";s:4:"lead";}i:1;a:5:{s:4:"name";s:15:"Michael Grunder";s:5:"email";s:25:"michael.grunder@gmail.com";s:6:"active";s:3:"yes";s:6:"handle";s:8:"mgrunder";s:4:"role";s:4:"lead";}}}s:10:"xsdversion";s:3:"2.0";s:13:"_lastmodified";i:1419658982;}

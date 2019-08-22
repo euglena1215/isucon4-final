@@ -1,0 +1,32 @@
+---
+abstract: Perl extension to test methods for warnings
+author:
+  - 'Alexandr Ciornii <alexchorny@gmail.com>'
+build_requires:
+  File::Spec: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 0
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.78, CPAN::Meta::Converter version 2.131490'
+keywords:
+  - testing
+  - warnings
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Test-Warn
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  Carp: 1.22
+  Sub::Uplevel: 0.12
+  Test::Builder: 0.13
+  Test::Builder::Tester: 1.02
+  perl: 5.006
+resources:
+  repository: https://github.com/chorny/test-warn
+version: 0.30

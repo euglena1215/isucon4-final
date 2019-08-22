@@ -1,0 +1,13 @@
+/home/isucon/.local/carton/bin/kossy-setup
+/home/isucon/.local/carton/lib/perl5/Kossy.pm
+/home/isucon/.local/carton/lib/perl5/Kossy/Connection.pm
+/home/isucon/.local/carton/lib/perl5/Kossy/Exception.pm
+/home/isucon/.local/carton/lib/perl5/Kossy/Request.pm
+/home/isucon/.local/carton/lib/perl5/Kossy/Response.pm
+/home/isucon/.local/carton/lib/perl5/auto/share/dist/Kossy/public/css/bootstrap-responsive.min.css
+/home/isucon/.local/carton/lib/perl5/auto/share/dist/Kossy/public/css/bootstrap.min.css
+/home/isucon/.local/carton/lib/perl5/auto/share/dist/Kossy/public/favicon.ico
+/home/isucon/.local/carton/lib/perl5/auto/share/dist/Kossy/public/img/glyphicons-halflings-white.png
+/home/isucon/.local/carton/lib/perl5/auto/share/dist/Kossy/public/img/glyphicons-halflings.png
+/home/isucon/.local/carton/lib/perl5/auto/share/dist/Kossy/public/js/bootstrap.min.js
+/home/isucon/.local/carton/lib/perl5/auto/share/dist/Kossy/public/js/jquery.min.js
