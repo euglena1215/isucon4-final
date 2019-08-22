@@ -1,3 +1,0 @@
-#!/home/isucon/.local/ruby/bin/ruby
-require 'test/unit'
-exit Test::Unit::AutoRunner.run(true)

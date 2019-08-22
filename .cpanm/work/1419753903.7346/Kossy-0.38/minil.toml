@@ -1,3 +1,0 @@
-module_maker="ModuleBuildTiny"
-[FileGatherer]
-exclude_match = ['^kossy_asset/.*']

@@ -1,3 +1,0 @@
-: for $books ->($item) {
-[<:= $item.title :>]
-: }

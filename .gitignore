@@ -1,0 +1,11 @@
+.bash_profile
+.cpanm
+.viminfo
+.bashrc
+.local
+.xbuild
+.bash_logout
+.config
+.gitconfig
+.ssh
+

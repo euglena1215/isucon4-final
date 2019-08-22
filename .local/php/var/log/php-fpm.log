@@ -1,5 +1,0 @@
-[28-Dec-2014 08:13:47] NOTICE: fpm is running, pid 12352
-[28-Dec-2014 08:13:47] NOTICE: ready to handle connections
-[28-Dec-2014 08:15:29] WARNING: [pool www] server reached pm.max_children setting (10), consider raising it
-[28-Dec-2014 08:17:36] NOTICE: Terminating ...
-[28-Dec-2014 08:17:36] NOTICE: exiting, bye-bye!

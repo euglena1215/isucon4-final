@@ -1,2 +1,0 @@
-include2:
-[% INCLUDE $file -%]

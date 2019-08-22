@@ -1,3 +1,0 @@
-: for [42] -> $it {
-    <: include "no_such_file" :>
-: }

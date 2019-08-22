@@ -1,3 +1,0 @@
-BEGIN WRAPPER A {
-[% content %]
-} END WRAPPER A

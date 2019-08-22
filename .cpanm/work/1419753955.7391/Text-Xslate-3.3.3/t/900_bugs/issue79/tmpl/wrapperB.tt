@@ -1,5 +1,0 @@
-[% WRAPPER 'wrapperA.tt' %]
-BEGIN WRAPPER B {
-[% content %]
-} END WRAPPER B
-[% END %]

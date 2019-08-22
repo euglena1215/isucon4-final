@@ -1,5 +1,0 @@
-HEAD
-: block hello -> {
-    Hello, <:= $lang :> world!
-: }
-FOOT

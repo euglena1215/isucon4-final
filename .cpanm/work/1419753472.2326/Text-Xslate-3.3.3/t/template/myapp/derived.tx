@@ -1,8 +1,0 @@
-: cascade myapp::base
-
-: before hello -> {
-    D-BEFORE
-: }
-: after hello -> {
-    D-AFTER
-: }

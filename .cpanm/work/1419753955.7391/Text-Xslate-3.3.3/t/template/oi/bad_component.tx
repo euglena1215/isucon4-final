@@ -1,5 +1,0 @@
-: # This is a cascading component
-
-: after hello -> {
-    <: $a.bad_code_bar() :>
-: }

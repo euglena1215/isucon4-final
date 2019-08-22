@@ -1,1 +1,0 @@
-[% MACRO foo() BLOCK %]foo[% END -%]
